@@ -1,0 +1,534 @@
+* {box-sizing: border-box;}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(211, 197, 197);
+}
+
+
+header{
+    width: 1200px;
+    height: 150px;
+    
+}
+.hsection1{
+    background-color: black;
+    height: 50px;
+    width: 1200px;
+
+}
+.emailsection{
+    float: left;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+    
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.gmailimg{
+    width: 20px;
+    height: 20px;
+    
+}
+.smsection{
+    width: 400px;
+    height: 50px;
+    float: left;
+    text-align: center;
+
+}
+
+.fbimg{
+    width: 40px;
+    height: 40px;
+}
+.instaimg{
+    width: 40px;
+    height: 40;
+}
+.ldimg{
+    width: 40px;
+    height: 40px;
+}
+.ytimg{
+    width: 40px;
+    height: 40px;
+}
+.ttimg{
+    width: 40px;
+    height: 40px;
+}
+
+.searchsection{
+    width: 400px;
+    height: 50px;
+    float: right;
+    text-align: center;
+}
+
+
+.hsection2{
+    background-color: white;
+    height: 100px;
+    width: 1200px;
+}
+.logoimgdiv{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0px 0px 80px;
+    float: left;
+    
+   
+}
+.logoimg{
+    float: left;
+    width: 50px;
+    height: 40px;
+    
+}
+.logotext{
+    font-size: 40px;
+    float: left;
+    font-size: 10px;
+    color: black;
+}
+
+.phondiv{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0px 0px 80px;
+    float: left;
+}
+.phonimg{
+    float: left;
+    width: 50px;
+    height: 40px;
+}
+.phonnotext{
+    font-size: 40px;
+    float: left;
+    font-size: 15px;
+    color: black;
+}
+.locationdiv{
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    padding: 10px 0px 0px 80px;
+    float: right;
+}
+.locationimg{
+    float: left;
+    width: 50px;
+    height: 40px;
+}
+.locationtext{
+    float: left;
+    font-size: 12px;
+    color: black;
+}
+nav{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: slateblue;
+    
+}
+nav ul{
+    margin-left: 0;
+    list-style: none;
+    text-align: center;
+
+}
+nav ul li {
+    display: inline-block;
+    
+}
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    background: black;
+    
+}
+
+/* ----mian----- */
+
+.imageContainer{
+    position: relative;
+    text-align: center;
+    
+   
+} 
+
+.center {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    text-align: center;
+    color: #fff;
+    
+    
+ }
+ .center h1{
+     font-size: 20px;
+ }
+ .center p{
+     font-size: 10px;
+
+ }
+ .mainbtn{
+     display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 12px 30px;
+     font-size: 12px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+     text-align: center;
+ }
+ .mainbtn:hover{
+     border: 1px solid blue;
+     background: blue;
+     transition: 1s;
+ }
+.maintext{
+    padding-top: 150px;
+}
+
+/* ---about-- */
+
+.aboutp{
+    text-align: center;
+    font-size: 30px;
+
+}
+.row{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.row h1{
+    color: crimson;
+
+}
+.row h3{
+    color: blue;
+}
+.col-2{
+    background-color: rgb(198, 213, 241);
+}
+
+/* ---services--- */
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.srvcrow{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.col{
+      background-color: #8aaf99;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      
+}
+.col:hover{
+    background: blueviolet;
+}
+.colbtn{
+    display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 12px 30px;
+     font-size: 12px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+     text-align: center;
+}
+.colbtn:hover{
+    border: 1px solid black;
+     background: black;
+     transition: 1s;
+}
+
+/* ---blog--- */
+
+h5{
+    text-align: center;
+    font-size: 30px;
+}
+
+.blogrow{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.blogcol{
+    background-color: royalblue;
+      width: 350px;
+      height: 400px;
+      border-radius: 5%;
+      text-align: center;
+}
+
+.blogcolbtn{
+    display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 12px 30px;
+     font-size: 12px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+     text-align: center;
+     width: 200px;
+}
+.blogcolbtn:hover{
+
+   border: 1px solid red;
+     background: red;
+     
+}
+ /* ---form--- */
+
+ .cnctctrow{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f2f2f2;
+ }
+.formdiv{
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+  }
+  .contadtp{
+    text-align: center;
+    font-size: 30px;
+  }
+  .formfulname{
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formemail{
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formtelphone{
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formgender{
+    width: 150px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formpassword{
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formDOB{
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formage{
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formselection{
+    width: 400px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+
+}
+.formmsg{
+    width: 500px;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.formbtn{
+    width: 500px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+.formbtn:hover{
+    background: royalblue;
+}
+.contadtp{
+    text-align: center;
+    font-size: 30px;
+}
+
+.cntctcolbtn{
+    border: 2px dotted black; 
+    width: 500px; 
+    height: 100px;
+    padding-top: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+/* ---testimonials--- */
+
+.testimonialrow{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.testimonialcol{
+    background-color: wheat;
+      width:  350px;
+      height: 400px;
+      border-radius: 0%;
+}
+.testimonialcol img{
+    border-radius: 50%;
+}
+
+.testimonialscolbtn{
+    display: inline-block;
+     text-decoration: none;
+     color: black;
+     border: 1px solid black;
+     padding: 12px 30px;
+     font-size: 12px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+     text-align: center;
+     border-radius: 30px;
+}
+.testimonialscolbtn:hover{
+    border: 1px solid white;
+     background: white;
+     transition: 1s;
+}
+
+/* ---footer--- */
+
+footer{
+    background-color: slategray;
+    width: 1200px;
+    height: 250px;
+}
+.footerdiv{
+    margin-top: 5px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 30px;
+}
+.footerrow{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footercol{
+    
+      width:  400px;
+      height: 250px;
+      border-radius: 0%;
+      float: left;
+}
+.footerfirstcolbtn{
+    margin-left: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: tomato;
+}
+.footercol ul{
+    margin-left: 0;
+    list-style: none;
+    text-align: center;
+}
+.footercolbtn{
+    display: inline-block;
+     text-decoration: none;
+     color: white;
+     padding: 12px 30px;
+     font-size: 12px;
+     background: transparent;
+     position: relative;
+     text-align: center;     
+}
+.ftrlastdiv{
+    
+    text-align: center;
+    
+}
